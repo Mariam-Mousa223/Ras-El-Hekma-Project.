@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Ras El Hekma</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <input type="checkbox" id="menu-toggle" class="menu-toggle-checkbox">
+    <label for="menu-toggle" class="overlay-backdrop"></label>
+
+    <header class="navbar">
+        <div class="logo">
+            <img src="/My-Projects /Ras-El-Hekma-Project/Logo.jpg" alt="Ras El Hekma Logo"> 
+        </div>
+
+        <label for="menu-toggle" class="hamburger-menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+    </header>
+
+    <nav class="side-drawer">
+        <label for="menu-toggle" class="close-btn">&times;</label>
+        <ul class="drawer-links">
+            <li><a href="Home.html" class="active">HOME</a></li>
+            <li class="dropdown">
+                <details>
+                <summary class="dropdown-header">
+            <a href="Communities.html" style="color: inherit; text-decoration: none; display: block;">COMMUNITIES</a>
+                </summary>
+                <ul class="dropdown-menu">
+                    <li><a href="#">WADI YEMM</a></li>
+                    <li><a href="#">YEMM BOULEVARD APARTMENTS</a></li>
+                    <li><a href="#">WADI EAST</a></li>
+                    <li><a href="#">WADI WEST</a></li>
+                    <li><a href="#">PARKLANDS RAS EL HEKMA</a></li>
+                    <li><a href="#">CANAL BEACH</a></li>
+                    <li><a href="#">MARINA</a></li>
+                    <li><a href="#">NORTH POINT ISLAND</a></li>
+                </ul>
+                </details>
+            </li>
+            
+            <li><a href="Communities.html">GALLERY</a></li>
+            <li><a href="Contact.html">FAQ</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+            
+        </ul>
+        
+        <a href="#" class="btn-list-property">LIST YOUR PROPERTY</a>
+        <div class="lang-selector">
+            <div class="lang-current">
+                <span class="flag">🇬🇧</span>
+                <span class="lang-text">EN</span>
+                <span class="arrow">&#x25BE;</span>
+            </div>
+            <ul class="lang-dropdown">
+                <li><span class="flag">🇬🇧</span> ENGLISH</li>
+                <li><span class="flag">🇦🇪</span> ARABIC</li>
+                <li><span class="flag">🇷🇺</span> RUSSIAN</li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="hero-section">
+        <div class="hero-content">
+            <div class="hero-text-container">
+                <h1 class="hero-title">Ras El Hekma</h1>
+                <p class="hero-subtitle">Sunset over Ras El Hekma's skyline of white towers and lush gardens.</p>
+                <p class="hero-tag">Freehold for All Nationalities</p>
+            </div>
+            
+            <div class="hero-right-side">
+                <div class="form-card">
+                    <h3 class="form-title">
+                        <span class="light-text">REQUEST</span>
+                        <span class="bold-text">A CALL BACK</span>
+                    </h3>
+
+                    <form action="#">
+                        <input type="text" placeholder="Full Name" class="form-input" required>
+                        <input type="email" placeholder="E-mail" class="form-input" required>
+
+                        <div class="phone-input-group">
+                            <select class="country-select">
+                                <option value="EG">🇪🇬 +20</option>
+                                <option value="AE">🇦🇪 +971</option>
+                                <option value="SA">🇸🇦 +966</option>
+                                <option value="KW">🇰🇼 +965</option>
+                                <option value="QA">🇶🇦 +974</option>
+                                <option value="OM">🇴🇲 +968</option>
+                                <option value="BH">🇧🇭 +973</option>
+                                <option value="JO">🇯🇴 +962</option>
+                                <option value="GB">🇬🇧 +44</option>
+                                <option value="US">🇺🇸 +1</option>
+                                <option value="RU">🇷🇺 +7</option>
+                                <option value="DE">🇩🇪 +49</option>
+                                <option value="FR">🇫🇷 +33</option>
+                                <option value="IT">🇮🇹 +39</option>
+                            </select>
+                            <input type="tel" placeholder="Phone" class="phone-input" required>
+                        </div>
+
+                        <div class="recaptcha-wrapper">
+                            <div class="recaptcha-checkbox">
+                                <input type="checkbox" id="captchaCheck" required>
+                                <label for="captchaCheck">أنا لست برنامج روبوت</label>
+                            </div>
+                            <div class="recaptcha-branding">
+                                <img src="/My-Projects /Ras-El-Hekma-Project/re.png" alt="reCAPTCHA">
+                                
+                            </div>
+                        </div>
+
+                        <button type="submit" class="btn-submit">REQUEST NOW</button>
+                    </form>
+                </div>
+ 
+                <button class="btn-brochure">Download Brochure</button>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="communities-section">
+        <h2 class="section-title">Communities</h2>
+        
+        <div class="communities-grid">
+            <!-- كارت 1 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/WadiY.jpg" alt="Wadi Yemm">
+                <div class="card-logo">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+                </div>
+                <div class="card-overlay">
+                    <h3>Wadi Yemm</h3>
+                </div>
+            </div>
+
+            <!-- كارت 2 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Lighthouse.jpg" alt="Lighthouse Village Apartment">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Lighthouse Village Apartment</h3>
+                </div>
+            </div>
+            <!-- كارت 3 -->
+  <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Yemm.jpg" alt="Yemm Boulevard Apartments">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Yemm Boulevard Apartments</h3>
+                </div>
+            </div>
+
+
+
+
+
+            <!-- كارت 4 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/WadiE.jpg" alt="Wadi East Villas & Townhouses">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Wadi East Villas & Townhouses</h3>
+                </div>
+            </div>
+
+            <!-- كارت 5 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Montage.jpg" alt="Montage Residences">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Montage Residences</h3>
+                </div>
+            </div>
+            <!-- كارت 6 -->
+  <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/WadiW.jpg" alt="Wadi West">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Wadi West</h3>
+                </div>
+            </div>
+
+
+
+            <!-- كارت 7 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Parklands.jpg" alt="Parklands Ras El Hekma">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Parklands Ras El Hekma</h3>
+                </div>
+            </div>
+
+            <!-- كارت 8 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Canal.jpg" alt="Canal Beach">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>Canal Beach</h3>
+                </div>
+            </div>
+
+            <!-- كارت 9 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/Marina.jpg" alt="Marina">
+                <div class="card-logo">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+                </div>
+                <div class="card-overlay">
+                    <h3>Marina</h3>
+                </div>
+            </div>
+
+            <!-- كارت 10 -->
+            <div class="community-card">
+                <img src="/My-Projects /Ras-El-Hekma-Project/North.jpg" alt="North Point Island">
+               <div class="card-logo">
+                   <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="MODON">
+               </div>
+                <div class="card-overlay">
+                    <h3>North Point Island</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <a href="#" class="scroll-top-btn">&#x2191;</a>
+
+    <div class="section-wrapper">
+        <section class="info-section">
+            <h1>Ras Al Hekma – Egypt’s Next Generation Sustainable Waterfront City</h1>
+            <p>Discover the future of coastal living with Ras Al Hekma, a visionary waterfront city on Egypt’s North Coast, designed for sustainable growth across environmental, economic, and social dimensions. This smart city development integrates renewable energy, green transportation, eco-friendly architecture, and water recycling systems to ensure low-impact urbanization. Strategically located near the Mediterranean Sea, Ras Al Hekma is set to become a leading real estate destination, offering a mix of luxury resorts, residential communities, commercial zones, and cultural landmarks. With walkable neighborhoods, vibrant public spaces, and green parks, the masterplan supports healthy, inclusive lifestyles while driving long-term investment opportunities. Ras Al Hekma is not just a real estate project—it’s Egypt’s model for sustainable coastal development.</p>
+            <p>A brand-new, 170 km² coastal metropolis rising on Egypt’s North Coast – halfway between Alexandria and Marsa Matrouh – where sugar-soft sands meet 44 km of crystal-clear shoreline. Conceived as Egypt’s next global gateway, the city is master-planned by UN-Habitat and delivered through a landmark US $35 billion Egypt-UAE partnership.</p>
+
+            <h2>Ras El Hekma – Egypt’s Rising Coastal Gem</h2>
+            <p>Strategically located just 2.5 hours from Cairo, Ras El Hekma is rapidly becoming the new Riviera of the Middle East. With crystal-clear turquoise waters, white sand beaches, and high-end resort developments, this region is attracting global investors, celebrities, and second-home buyers. Wadi Yemm is ideally positioned to capitalize on this growing demand.</p>
+
+            <h2>Modon’s Ras El Hekma – A New Era of Coastal Luxury Living</h2>
+            <p>Modon’s newest development in Ras El Hekma redefines luxury real estate on Egypt’s North Coast, offering a visionary coastal destination designed for modern living and smart investment. Ideally positioned along the Mediterranean, this flagship project features ultra-luxury villas, branded residences, and smart apartments with panoramic sea views, private beach access, and world-class amenities. Developed with sustainability and technology at its core, Modon creates more than homes—it delivers a lifestyle of Mediterranean elegance blended with innovation. Whether you’re investing or searching for your dream holiday home, Modon Ras El Hekma stands as the ultimate choice for discerning buyers seeking value, prestige, and future growth on the North Coast of Egypt.</p>
+
+            <div class="strategic-location">
+                <h3>Strategic Location & Connectivity</h3>
+                <ul>
+                    <li><strong>By Road</strong> <br> Cairo – 2 h | Alexandria – 1 h 45 m | Marsa Matrouh – 1 h</li>
+                    <li><strong>By Air:</strong> <br> Brand-new international airport (2026) – 4 h non-stop to Paris, London, Abu Dhabi, Dubai, Riyadh.</li>
+                    <li><strong>By Rail & Sea:</strong> <br> High-speed rail link to Cairo & El Alamein; 8 km of marinas + cruise terminal.</li>
+                </ul>
+            </div>
+
+            <div class="masterplan-zones">
+                <h3>Masterplan Zones</h3>
+                <ol>
+                    <li><strong>Wadi Yemm</strong> – First precinct alive with beach clubs, amphitheatre & golf.</li>
+                    <li><strong>Central Business District</strong> – 2 million m² of Grade-A offices & start-up hubs.</li>
+                    <li><strong>Special Free Zone</strong> – Zero-tax incentives for tech, logistics & tourism.</li>
+                    <li><strong>Marina District</strong> – 4 marinas + super-yacht berths & floating promenades.</li>
+                    <li><strong>Parklands & Groves</strong> – 22 % open space laced with wadis, cycling tracks & equestrian trails.</li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="table-section">
+            <h2>Communities Inside Ras El Hekma</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Community</th>
+                        <th>Style</th>
+                        <th>Signature Touch</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Mountain View Ras El Hekma</td>
+                        <td>Greek-island chic</td>
+                        <td>800 m private beach, 19 pools, sunset amphitheatre</td>
+                    </tr>
+                    <tr>
+                        <td>Solare by Misr Italia</td>
+                        <td>Italian dolce-vita</td>
+                        <td>Piazze, vineyards & Tuscan-style homes</td>
+                    </tr>
+                    <tr>
+                        <td>Seashore by Hyde Park</td>
+                        <td>Contemporary minimalism</td>
+                        <td>214 km pristine beachfront, sky lounges</td>
+                    </tr>
+                    <tr>
+                        <td>NAIA Bay</td>
+                        <td>Cycladic whites</td>
+                        <td>Lagoon-style pools & barefoot-chic beach bars</td>
+                    </tr>
+                    <tr>
+                        <td>Fouka Bay</td>
+                        <td>Tropical-island clusters</td>
+                        <td>7 km beaches + 12 green lagoons by Peluffo</td>
+                    </tr>
+                    <tr>
+                        <td>Cali Coast</td>
+                        <td>California casual</td>
+                        <td>Surf club, beachfront food trucks & skate park</td>
+                    </tr>
+                    <tr>
+                        <td>Masyaf</td>
+                        <td>Modern Greek</td>
+                        <td>Floating seascapes, 730 m beachfront</td>
+                    </tr>
+                    <tr>
+                        <td>Lyv by Caesar</td>
+                        <td>Riviera elegance</td>
+                        <td>Infinity edges framing endless turquoise</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section class="stats-section">
+            <h2>City in Numbers</h2>
+            <div class="stats-grid">
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/1.jpg" alt="Education">
+
+                </div>
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/2.jpg" alt="Population">
+
+                </div>
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/3.jpg" alt="Residential">
+
+                </div>
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/4.jpg" alt="Hotels">
+
+                </div>
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/5.jpg" alt="Coastlines">
+
+                </div>
+                <div class="stat-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/6.jpg" alt="Jobs">
+
+                </div>
+            </div>
+        </section>
+
+        <section class="project-features-section">
+            <h2>Ras El Hekma Project – Egypt’s New Global Destination- Al Sahel Al Shamali</h2>
+            <p>The visionary <strong>Ras El Hekma development</strong> is transforming Egypt’s North Coast into a world-class investment and lifestyle hub. This strategic mega project will feature:</p>
+            <ul>
+                <li>A new international airport, ensuring seamless global connectivity.</li>
+                <li>A private services free zone, attracting foreign investment and creating economic growth.</li>
+                <li>A state-of-the-art international marina and cruise terminal, positioning Ras El Hekma as a Mediterranean tourism and maritime gateway.</li>
+                <li>A modern Central Business District (CBD), designed to host global companies, financial institutions, and business hubs.</li>
+                <li>A rapid transit network connecting key zones and enhancing mobility across the development.</li>
+                <li>An integrated smart city infrastructure, offering advanced digital services, green energy solutions, and sustainable urban living.</li>
+            </ul>
+            <p>Set to rival top coastal destinations, Ras El Hekma combines luxury real estate, tourism, business, and infrastructure to redefine the future of Egypt's North Coast.</p>
+        </section>
+            
+        <section class="payments-section">
+            <h2>Ras El Hekma Payment Methods</h2>
+            <p>We accept all the following payment methods</p>
+            
+            <div class="payments-grid">
+                <div class="payment-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/Card.jpg" alt="Card">
+                    <span>Card</span>
+                </div>
+                <div class="payment-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/Cheque.jpg" alt="Cheque">
+                    <span>Cheque</span>
+                </div>
+                <div class="payment-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/Cash.jpg" alt="Cash">
+                    <span>Cash</span>
+                </div>
+                <div class="payment-card">
+                    <img src="/My-Projects /Ras-El-Hekma-Project/Bitcoin.jpg" alt="Bitcoin">
+                    <span>Bitcoin</span>
+                </div>
+            </div>
+        </section>
+
+<div class="location-container">
+    <div class="map-box">
+        <div class="map-wrapper">
+            <div class="map-hover-trigger"></div>
+
+            <iframe 
+                src="https://maps.google.com/maps?q=WADI%20YEMM-Ras%20El%20Hekma&t=&z=13&ie=UTF8&iwloc=B&output=embed&hl=en"
+                width="100%" 
+                height="100%" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy">
+            </iframe>
+        </div>
+    </div>
+
+    <div class="accordion-box">
+        <details name="locations">
+            <summary>UAE</summary>
+            <ul>
+                <li><strong>Abu Dhabi</strong> - Approximately 4 Hours</li>
+                <li><strong>Dubai</strong> - Approximately 4 Hours</li>
+            </ul>
+        </details>
+
+        <details name="locations">
+            <summary>Europe</summary>
+            <ul>
+                <li><strong>Italy, Rome</strong> - Approximately 3 Hours</li>
+                <li><strong>France, Paris</strong> - Approximately 4 Hours 30 Minutes</li>
+                <li><strong>UK, London</strong> - Approximately 5 Hours</li>
+                <li><strong>Spain, Madrid</strong> - Approximately 5 Hours</li>
+                <li><strong>Russia, Moscow</strong> - Approximately 5 Hours</li>
+            </ul>
+        </details>
+
+        <details name="locations">
+            <summary>Egypt</summary>
+            <ul>
+                <li><strong>Alexandria</strong> - Approximately 2 Hours</li>
+                <li><strong>Cairo</strong> - Approximately 3 Hours</li>
+            </ul>
+        </details>
+
+        <details name="locations">
+            <summary>The Gulf</summary>
+            <ul>
+                <li><strong>Kuwait</strong> - Approximately 3 Hours</li>
+                <li><strong>Qatar, Doha</strong> - Approximately 3 Hours 30 Minutes</li>
+            </ul>
+        </details>
+    </div>
+</div>
+
+            <div class="cities-cards">
+                <a href="Home.html" class="city-card" style="background-image: url('/My-Projects /Ras-El-Hekma-Project/Dubai.jpg');">
+                    <span class="badge">4 hours</span>
+                    <h3>Dubai</h3>
+                </a>
+                <a href="Home.html" class="city-card" style="background-image: url('/My-Projects /Ras-El-Hekma-Project/Abu.jpg');">
+                    <span class="badge">4 hours</span>
+                    <h3>Abu Dhabi</h3>
+                </a>
+                <a href="Home.html" class="city-card" style="background-image: url('/My-Projects /Ras-El-Hekma-Project/Alex.jpg');">
+                    <span class="badge">2 Hours</span>
+                    <h3>Alexandria</h3>
+        
+                </a>
+            </div>
+        
+
+        <section class="faq-section">
+            <h2>FAQs</h2>
+            <div class="faq-accordion">
+                <details name="faq"><summary>Where exactly is Ras El Hekma?</summary>
+                <div class="faq-content">
+                <p><strong>85 km </strong>west of Alexandria and 200 km east of Marsa Matrouh, on Egypt’s North Coast. The new international airport sits inside the city limits.</p>
+                </div>
+                </details>
+                <details name="faq"><summary>When does the airport open and which airlines will fly there?</summary>
+                <div class="faq-content">
+                    <ul>
+                        <li>The <strong>airport</strong> opens in phases starting <strong>Q4 2026</strong>.</li>
+                        <li><strong>Confirmed carries:</strong> Emirates, Etihad, Qatar Airways, Air Cairo, EgyptAir, Wizz Air, seasonal charters from Europe.</li>
+                    </ul>
+                </div>
+                </details>
+                <details name="faq"><summary>Can foreigners own property outright?</summary>
+                <p><strong>Yes.</strong> Egypt’s 2023 investment law allows freehold ownership for all nationalities, with title deeds registered in the buyer’s name.</p>
+                </details>
+                <details name="faq"><summary>Is there a residency or citizenship option?</summary>
+                <ul>
+                    <li><strong>Purchase ≥ US$300k </strong>and you qualify for <strong>Egypt’s Golden Residency </strong>(5-year renewable).</li>
+                    <li><strong>Purchase ≥ US$500k </strong>for fast-track citizenship (subject to due diligence).</li>
+                </ul>
+                </details>
+                <details name="faq"><summary>What payment plans are available?</summary>
+                <ul>
+                    <li>0 % interest, 10 % down, balance over 8 years (most developers).</li>
+                </ul>
+                </details>
+                <details name="faq"><summary>Are utilities and infrastructure already in?</summary>
+                <p><strong>Yes.</strong> Smart-grid electricity, fiber-optic internet, district cooling, desalinated water, and waste-water treatment are under construction simultaneously with the buildings.</p>
+                </details>
+                <details name="faq"><summary>Which communities are already under construction and when will they deliver?</summary>
+                <ul>
+                    <li>Mountain View, Solare, Seashore, and Fouka Bay are under piling; the first units' <strong>handover is in Q3 2027.</strong></li>
+                    <li>NAIA Bay, Cali Coast & Masyaf are in earthworks; <strong>handover Q1 2028.</strong></li>
+                </ul>
+                </details>
+                <details name="faq"><summary>Can I rent my unit when I'm not there?</summary>
+                <p><strong>Yes.</strong> All developments allow short-term holiday lets; average gross yield 8 to 12 % net of service charges.</p>
+                </details>
+                <details name="faq"><summary>Are there schools and hospitals?</summary>
+                <ul>
+                    <li><strong>4 million m² </strong>reserved for education: British, IB, and American curricula opening 2028 to 29.</li>
+                    <li>A <strong>400-bed </strong>Cleveland Clinic-affiliated hospital plus 6 satellite clinics will serve the city.</li>
+                </ul>
+                </details>
+                <details name="faq"><summary>How will I get around the city?</summary>
+                <ul>
+                    <li><strong>12 km </strong>of electric tram loops,<strong> 85 km </strong>of cycling lanes, e-scooter share, and autonomous shuttles.</li>
+                    <li>Free intra-city ferry service connects all four marinas.</li>
+                </ul>
+                </details>
+                <details name="faq"><summary>Is financing available for Egyptian expats?</summary>
+                <p><strong>Yes,</strong> Banque Misr, NBE, and ADCB Egypt provide up to<strong> 80</strong> % <strong>LTV </strong>for expats at<strong> 7.5</strong> % <strong>fixed for 15 years.</strong></p>
+                </details>
+                <details name="faq"><summary>What climate should I expect?</summary>
+                <p><strong>Mediterranean</strong>: 30 °C summers, 15 °C winters, 320 sunny days a year, moderated by on-shore breezes.</p>
+                </details>
+            </div>
+        </section>
+    </div>
+
+<section class="callback-section">
+    <div class="callback-container">
+        <div class="callback-card">
+            <h3 class="callback-subtitle">REQUEST</h3>
+            <h2 class="callback-title">A CALL BACK</h2>
+            <form class="callback-form">
+                <input type="text" placeholder="Full Name" required class="callback-input">
+                <input type="email" placeholder="E-mail" required class="callback-input">
+                
+             <div class="phone-input-group">
+                            <select class="country-select">
+                                <option value="EG">🇪🇬 +20</option>
+                                <option value="AE">🇦🇪 +971</option>
+                                <option value="SA">🇸🇦 +966</option>
+                                <option value="KW">🇰🇼 +965</option>
+                                <option value="QA">🇶🇦 +974</option>
+                                <option value="OM">🇴🇲 +968</option>
+                                <option value="BH">🇧🇭 +973</option>
+                                <option value="JO">🇯🇴 +962</option>
+                                <option value="GB">🇬🇧 +44</option>
+                                <option value="US">🇺🇸 +1</option>
+                                <option value="RU">🇷🇺 +7</option>
+                                <option value="DE">🇩🇪 +49</option>
+                                <option value="FR">🇫🇷 +33</option>
+                                <option value="IT">🇮🇹 +39</option>
+                            </select>
+                            <input type="tel" placeholder="Phone" class="phone-input" required>
+                        </div>
+                <div class="recaptcha-box">
+                    <label><input type="checkbox"> أنا لست برنامج روبوت</label>
+                    <div class="recaptcha-logo">
+                        <img src="/My-Projects /Ras-El-Hekma-Project/re.png" alt="reCAPTCHA">
+
+                    </div>
+                </div>
+
+                <button type="submit" class="btn-callback-submit">REQUEST NOW</button>
+            </form>
+        </div>
+
+        <div class="agent-image-wrapper">
+            <img src="/My-Projects /Ras-El-Hekma-Project/Pec.jpg" alt="Customer Support Agent" class="agent-img">
+        </div>
+    </div>
+</section>
+
+<footer class="site-footer">
+    <div class="footer-links">
+        <a href="Home.html">Home</a>
+        <a href="Contact.html">About</a>
+    </div>
+    
+    <div class="social-icons">
+        <!-- Instagram -->
+        <a href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+        </a>
+
+        <!-- Facebook -->
+        <a href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M9 8H6v4h3v12h5V12h3.642L18 8h-4V6.333C14 5.374 14.5 5 15.5 5H18V0h-3.808C10.592 0 9 1.583 9 4.615V8z"/></svg>
+        </a>
+
+        <!-- YouTube -->
+        <a href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"/></svg>
+        </a>
+
+        <!-- TikTok -->
+        <a href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.98-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-.88 1.23-2.14 2.18-3.58 2.69-1.45.52-3.05.52-4.51.05-1.47-.47-2.77-1.41-3.65-2.66-.88-1.25-1.3-2.77-1.23-4.3.06-1.52.58-3.01 1.48-4.21.91-1.2 2.19-2.07 3.63-2.5 1.01-.3 2.07-.37 3.12-.22v4.06c-.57-.12-1.16-.1-1.72.04-.57.15-1.09.46-1.48.9-.39.43-.63.99-.68 1.57-.05.58.08 1.17.38 1.67.31.5.76.88 1.3 1.09.54.21 1.14.22 1.69.04.55-.18 1.02-.55 1.33-1.04.3-.49.44-1.07.42-1.65.03-4.88.01-9.76.02-14.64z"/></svg>
+        </a>
+
+        <!-- LinkedIn -->
+        <a href="#">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5c0 1.381-1.11 2.5-2.48 2.5s-2.48-1.119-2.48-2.5c0-1.38 1.11-2.5 2.48-2.5s2.48 1.12 2.48 2.5zm.02 4.5h-5v16h5v-16zm7.982 0h-4.968v16h4.969v-8.399c0-4.67 6.029-5.052 6.029 0v8.399h4.988v-10.131c0-7.88-8.922-7.593-11.018-3.714v-2.155z"/></svg>
+        </a>
+    </div>
+
+    <div class="footer-divider"></div>
+
+    <p class="copyright-text">
+        © 2026 Copyright: raselhekma.info - This is not an official website, it has been developed for marketing purposes only.
+    </p>
+
+    <div class="footer-logo">
+        <img src="/My-Projects /Ras-El-Hekma-Project/MC.jpg" alt="Modon Logo">
+    </div>
+
+    <div class="footer-legal-links">
+        <a href="#">Terms & Conditions</a>
+        <a href="#">Privacy Policy</a>
+    </div>
+</footer>
+
+</body>
+</html>
