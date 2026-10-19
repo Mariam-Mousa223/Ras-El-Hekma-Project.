@@ -207,7 +207,7 @@ body {
 
 .hero-section {
     min-height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('/My-Projects /Ras-El-Hekma-Project/Background.jpg') center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url('Background.jpg') center/cover no-repeat;
     padding: 120px 30px 40px 30px;
     display: flex;
     align-items: center;
